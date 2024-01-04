@@ -90,3 +90,4 @@ validators==0.22.0
 Wand==0.6.10
 zipp==3.17.0
 opencv-python-headless==4.5.3.56
+PyOpenGL
