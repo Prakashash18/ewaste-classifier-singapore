@@ -22,7 +22,7 @@ page_options = ["Upload Photo", "Find Bin", "Take Photo"]
 selected_page = st.sidebar.selectbox("Select Action", page_options, index = default)
 
 # Load model
-model = YOLO('best_ewaste_1_Jan_2024.pt')
+model = YOLO('best_ewaste_5_Jan_2024.pt')
 
 api_key = "AIzaSyCvWRdzEZOPkpBsGWOY_nYM-QAEewjvHmU"
 
