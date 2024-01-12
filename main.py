@@ -24,7 +24,8 @@ selected_page = st.sidebar.selectbox("Select Action", page_options, index = defa
 # Load model
 model = YOLO('best_ewaste_5_Jan_2024.pt')
 
-api_key = "AIzaSyCvWRdzEZOPkpBsGWOY_nYM-QAEewjvHmU"
+api_key = "AIzaSyCPVbjkp7ugNOunxcknTj8PS4On7ZHs0b8"
+
 
 gmaps = googlemaps.Client(key=api_key)
 
